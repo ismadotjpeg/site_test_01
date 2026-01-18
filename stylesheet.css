@@ -1,0 +1,25 @@
+.box {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)  
+}
+.cliquable {
+    transition: 0.5s;
+}
+.cliquable:hover {
+transition: 0.2s;
+transform: scale(1.1);
+}
+.title {
+    justify-self: center;
+    display: block;
+    margin: 5rem;
+}
+.paragraphs {
+    font-family: 'Courier New', Courier, monospace;
+    
+    display: block;
+    margin: 10rem;
+justify-self: center
+}
